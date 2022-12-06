@@ -16,35 +16,56 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <i class="navbar-brand" href="#">
                 <img src="img/logo arg pr.png" alt="logo" width="150" height="80">
-              </a>
+            </i>
 
               <span class="fa-stack fa-2x"  style="font-size: 2em; color: rgb(241, 236, 235);" >  
             
-<i class="fa-brands fa-square-facebook"></i></li>
-<i class="fa-brands fa-square-instagram"></i></li>
-              </span>
-          
-            
+<a href="https://www.facebook.com/silvia.barbieri.988" target="_blank"> <i class="fa-brands fa-square-facebook" ></i></li></a>
+<a href="https://instagram.com/pilucani18/" target="_blank"><i class="fa-brands fa-square-instagram"></i></li></a>
+              </span> 
+             
             <!-- Button trigger modal -->
 <button type="button" class="btn btn-light" >
-  <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-sharp fa-solid fa-house-lock" class="login" ></i>
+  <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-sharp fa-solid fa-house-lock" class="login" ></i> 
+</nav>
+<!--seccion banner-->
+<section class="banner">
+  <h3 class= "text-center nombre">
+     SILVIA BARBIERI <br> 
+    </h3>
+     <h5 class="text-center">Fullstack Jr 
+     </h5>
+    
+
+</section>
 </button>
 
 <!-- Modal -->
             <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesion</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    ...
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                       
+  </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>  
+                    
+                    </form>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
                     
                   </div>
                 </div>
@@ -54,7 +75,7 @@
           </button>
         
         </div>
-      </nav>
+   
 
  <!-- JavaScript Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
