@@ -1,0 +1,111 @@
+
+body{
+font-family: 'Kumbh Sans', sans-serif;
+background-color: lightsteelblue;
+}
+section.banner{
+    background-image: url(../img/cerro\ \(2\).png);
+width:100%;
+height: 400px;
+position:relative;
+background-size:cover;
+-webkit-background-size :relative;
+-moz-background-size :relative;
+-o-background-size :relative;
+-msn-background-size :relative;
+background-repeat :no-repeat;
+}
+section{
+    border-radius: 3%;
+}
+h1.nombre{ 
+    
+    padding-top: 6%;
+    font-size: 3rem;
+    color: white;
+    }
+.foto{
+    border-radius: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    width: 80%;
+    height: 80%;
+}    
+    h2.ful{
+font-size: 3rem;
+color:white;
+}
+.unlz{
+        width: 70%;
+        height: 70%;
+        margin-top: 15%;
+        margin-left: 20%;
+        border-radius: 10%;
+ }
+.depi{
+border-radius: 100%;
+margin-top: 40%;
+margin-left: 18%;
+}
+body{ font-family: 'Kumbh Sans', sans-serif; } h1 { color: #63B8FF; text-align: center; } .progress-circle { position: relative; display: inline-block; margin-top: 2rem; margin-left: 5rem; margin-right: 5rem; margin-bottom: 2rem; width: 120px; height: 120px; border-radius: 50%; background-color: #ebebeb; } .progress-circle:after { content: ''; display: inline-block; width: 100%; height: 100%; border-radius: 50%; -webkit-animation: colorload 2s; animation: colorload 2s; } .progress-circle span { font-size: 1rem; color: #8b8b8b; position: absolute; left: 50%; top: 50%; display: block; width: 90px; height: 90px; line-height: 90px; margin-left: -45px; margin-top: -45px; text-align: center; border-radius: 50%; background: #fff; z-index: 1; } .progress-circle span:after { content: "%"; font-weight: 600; color: #8b8b8b; }
+.progress-circle.progress-70:after { background-image: linear-gradient(-18deg,#045a5a  50%, transparent 50%, transparent), linear-gradient(270deg, #045a5a  50%, #ebebeb 50%, #ebebeb); }
+.progress-circle.progress-65:after { background-image: linear-gradient(-36deg, #045a5a 50%, transparent 50%, transparent), linear-gradient(270deg, #045a5a 50%, #ebebeb 50%, #ebebeb); } 
+.progress-circle.progress-45:after { background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(252deg, #045a5a  50%, #ebebeb 50%, #ebebeb); } 
+.progress-circle.progress-60:after { background-image: linear-gradient(-54deg,#045a5a   50%, transparent 50%, transparent), linear-gradient(270deg,  #045a5a 50%, #ebebeb 50%, #ebebeb); }
+.carrefourLogo{
+    border-radius: 10%;
+    width: 80%;
+    height: 60%;
+    margin-top: 40%;
+    margin-left: 20%;
+}
+.carex{
+    margin-top: -10%;
+}
+.mc{
+    width: 80%;
+    height: 60%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 18%;
+}
+.macd{
+    margin-top: -10%;
+}
+.cfp{
+    width: 70%;
+    height: 90%;
+    border-radius: 20%;
+    margin-left: 20%;
+    margin-top: -7%;
+}
+.opc{
+    margin-top: -10%;
+}
+.ap{
+    width: 120%;
+    height: 100%;
+    margin-left: 5%;
+}
+.apr{
+    margin-top: -6%;
+}
+.cui{
+    width: 80%;
+    height: 100%;
+    margin-top: -6%;
+    margin-left: 18%;
+}
+.cuil{
+    margin-top: -8%;
+}
+.footer{
+    background-color: black;
+    font-size: x-small;
+    color: white;
+}
+.login{
+    height: 75vh;
+    background-color: lightsteelblue;
+}
