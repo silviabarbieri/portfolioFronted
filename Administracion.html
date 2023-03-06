@@ -17,40 +17,135 @@
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <!--navbar-->
     <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">     
                 <img src="assets/img/APLogo-20-20.png" alt="logo" width="150" height="80">
             </a>
             <li class="list-group-item"><i class="fa-sharp fa-solid  fa-house-circle-check fa-xl text-white" class="login" ></i> </li>
-
    </div>           
 </nav>
-<section class="formulario">
-<div class="container text-center">
-    <div class="row">
-      <div class="col">
-      </div>
-      <div class="col">
-<form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label mt-5">Correo electronico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <button type="submit" class="btn btn-primary mb-5">Ingresar</button>
-      </form>  
-      </div>
-      <div class="col">     
-      </div> 
-      <small><a  class="registro" href="Registro.html">Registrate</a></small>
+<!--Panel -->
+<section class="dashboard">
+<div class="container-fluid text-center">
+  <div class="row">
+   <div class="col-3">
+   </div> 
+   <section class="panel">
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link" id="v-pills-datos-tab" data-bs-toggle="pill" data-bs-target="#v-pills-datos" type="button" role="tab" aria-controls="v-pills-datos" aria-selected="true">Datos Personales</button>
+      <button class="nav-link" id="v-pills-presentacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-presentacion" type="button" role="tab" aria-controls="v-pills-presentacion" aria-selected="true">Presentacion</button>
+      <button class="nav-link" id="v-pills-educacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-educacion" type="button" role="tab" aria-controls="v-pills-educacion" aria-selected="false">Educacion</button>
+      <button class="nav-link" id="v-pills-capacitacion-tab" data-bs-toggle="pill" data-bs-target="#v-pills-capacitacion" type="button" role="tab" aria-controls="v-pills-capacitacion" aria-selected="false">Capacitacion</button>
+      <button class="nav-link" id="v-pills-experiencia-tab" data-bs-toggle="pill" data-bs-target="#v-pills-experiencia" type="button" role="tab" aria-controls="v-pills-experiencia" aria-selected="false">Experiencia Laboral</button>
     </div>
+  </div>  
+</section>
+    <!--datos-->
+    <section class="adm">
+    <div class="col-9 tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade" id="v-pills-datos" role="tabpanel" aria-labelledby="v-pills-datos-tab" tabindex="0">
+        <h5> Datos Personales</h5>
+        <div class="mb-3">
+          <label for="formFile" class="form-label">Foto Perfil </label>
+          <input class="form-control" type="file" id="formFile">  
+          <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button>
+             </div>
+        <label for="formFile" class="form-label">Nombre y Apellido  </label>
+        <input class="form-control" type="text" id="formFile">
+      <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button>
+      </div>
+       </div>     
+<!--Presentacion-->
+      <div class="col-9 tab-content" id="v-pills-tabContent"> 
+      <div class="tab-pane fade" id="v-pills-presentacion" role="tabpanel" aria-labelledby="v-pills-presentacion-tab" tabindex="0">
+        <h5>Presentacion</h5>
+        <div class="mb-3 mt-3">
+           </div> 
+        <label for="formFile" class="form-label"></label>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button>   
+      </div> 
+    </div>
+<!--Educacion-->
+<div class="col-9 tab-content" id="v-pills-tabContent"> 
+  <div class="tab-pane fade" id="v-pills-educacion" role="tabpanel" aria-labelledby="v-pills-educacion-tab" tabindex="0">
+    <h5>Educacion</h5>
+    <div class="mb-3 mt-3">
+       </div> 
+       <div class="row g-3">
+        <div class="col-sm-7">
+          <input type="text" class="form-control" placeholder="Establecimiento" aria-label="Establecimiento">
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Titulo" aria-label="Titulo">
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Año" aria-label="Año">
+        </div>
+      </div>
+      <div class="mb-3 pt-3">
+        <label for="formFile" class="form-label">Logo Establecimiento </label>
+        <input class="form-control" type="file" id="formFile">  
+        <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button> 
+      </div>
+</div>
+</div>
+ <!--Cursos-->
+ <div class="col-9 tab-content" id="v-pills-tabContent"> 
+  <div class="tab-pane fade" id="v-pills-capacitacion" role="tabpanel" aria-labelledby="v-pills-capacitacion-tab" tabindex="0">
+    <h5>Capacitacion</h5>
+    <div class="mb-3 mt-3">
+       </div> 
+       <div class="row g-3">
+        <div class="col-sm-7">
+          <input type="text" class="form-control" placeholder="Establecimiento" aria-label="Establecimiento">
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Titulo" aria-label="Titulo">
+        </div>
+        <div class="col-sm">
+          <input type="text" class="form-control" placeholder="Año" aria-label="Año">
+        </div>
+      </div>
+      <div class="mb-3 pt-3">
+        <label for="formFile" class="form-label">Logo Establecimiento </label>
+        <input class="form-control" type="file" id="formFile">  
+        <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button> 
+      </div>
+ </div>
   </div>
-  
-  </section>
+ <!--Experiencia-->
+ <div class="col-9 tab-content" id="v-pills-tabContent">
+  <div class="tab-pane fade" id="v-pills-experiencia" role="tabpanel" aria-labelledby="v-pills-experiencia-tab" tabindex="0">
+    <h5> Experiencia Laboral</h5>
+    <div class="mb-3 pt-3">
+      <label for="formFile" class="form-label">Logo Empresa </label>
+      <input class="form-control" type="file" id="formFile">  
+         </div>
+    <label for="formFile" class="form-label">Empresa</label>
+    <input class="form-control" type="text" id="formFile">
+    <div class="row g-3">
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="Puesto Desempeñado" aria-label="Puesto Desempeñado">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Desde" aria-label="Desde">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Hasta" aria-label="Hasta">
+      </div>
+    </div>
+  <button type="button" class="btn btn-secondary mt-3 mb-3">Guardar</button>
+  </div>  
+</div> 
+</div> 
+</div>
+ </div>
+</section>
+  <!--footer-->
   <section class="footer">
     <footer class="text-center">Creado por Silvia Barbieri 2023</footer>
   </section>

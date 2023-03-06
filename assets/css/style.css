@@ -115,3 +115,15 @@ body{ font-family: 'Kumbh Sans', sans-serif; } h1 { color: #63B8FF; text-align: 
 .registro{
     font-size:x-large;
 }
+.dashboard{
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+.panel{
+    margin-left: 1%;
+    font-size: x-large;
+}
+.adm{
+    margin-left: 10%;
+    margin-right: 2%;
+}
